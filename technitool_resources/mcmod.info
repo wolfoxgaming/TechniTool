@@ -1,0 +1,19 @@
+[
+{
+  "modid": "TechniToolModID",
+  "name": "TechniTool",
+  "version": "$version",
+  "mcversion": "$mcversion",
+  "description": "An omni-tool with functionalities that are usually only accessible through block-based crafting, also potato capacitors!",
+  "credits": "Created by Wolfox Gaming",
+  "logoFile": "logo.png",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [ "Wolfox Gaming" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+     "mod_MinecraftForge"
+  ]
+}
+]
