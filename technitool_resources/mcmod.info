@@ -1,12 +1,12 @@
 [
 {
-  "modid": "TechniToolModID",
+  "modid": "ttool",
   "name": "TechniTool",
-  "version": "$version",
-  "mcversion": "$mcversion",
+  "version": "0.0.1",
+  "mcversion": "1.6.4",
   "description": "An omni-tool with functionalities that are usually only accessible through block-based crafting, also potato capacitors!",
   "credits": "Created by Wolfox Gaming",
-  "logoFile": "logo.png",
+  "logoFile": "logo.jpg",
   "url": "",
   "updateUrl": "",
   "authorList": [ "Wolfox Gaming" ],
