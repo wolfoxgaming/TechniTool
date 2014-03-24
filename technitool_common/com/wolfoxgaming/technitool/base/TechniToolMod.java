@@ -1,10 +1,14 @@
 package com.wolfoxgaming.technitool.base;
 
 import net.minecraft.item.Item;
+import net.minecraftforge.client.MinecraftForgeClient;
+import net.minecraftforge.client.model.AdvancedModelLoader;
+import net.minecraftforge.client.model.IModelCustom;
 
 import com.wolfoxgaming.technitool.data.Ids;
 import com.wolfoxgaming.technitool.items.TechniTool;
 import com.wolfoxgaming.technitool.proxy.CommonProxy;
+import com.wolfoxgaming.technitool.render.ItemRenderTechniTool;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -15,8 +19,6 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.LanguageRegistry;
-
-
 
 //import cpw.mods.fml.common.network.NetworkMod; // not used in 1.7
 
@@ -35,8 +37,7 @@ public class TechniToolMod {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		TechniTool = new TechniTool(Ids.TechniToolID);
-		LanguageRegistry.addName(TechniToolMod.TechniTool, "Techni Tool");
-		TechniToolMod.TechniTool.setTextureName("ttool:tt_tool");
+		LanguageRegistry.addName(TechniToolMod.TechniTool, "TechniTool");
 		
 	}
 
